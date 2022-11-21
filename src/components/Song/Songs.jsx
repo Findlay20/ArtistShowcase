@@ -1,6 +1,6 @@
 import React from "react";
-import OpenItUp from "../public/OpenItUp.png"
-import Mood from "../public/Mood.jpg" 
+import OpenItUp from "../../../public/OpenItUp.png"
+import Mood from "../../../public/Mood.jpg" 
 
 export const MigosSongs = () => {
     return (
