@@ -7,7 +7,7 @@ import React from 'react';
  import '@testing-library/jest-dom';
  import userEvent from '@testing-library/user-event';
  
- import Artist from "./Artist";
+ import { Artist } from "../";
 
 describe('Artist', () => {
 

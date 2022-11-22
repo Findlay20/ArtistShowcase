@@ -8,8 +8,8 @@ import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
 
 
-import Artist from "../Artist/Artist";
-import CommentForm from "./Comments";
+import Artist from "../Artist";
+import CommentForm from ".";
 
 describe('Comments', () => {
 

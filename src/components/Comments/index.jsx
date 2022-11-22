@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 
 
-export const CommentForm = () => {
+const Comments = () => {
 
     const [comment, setState] = useState("");
 
@@ -21,3 +21,5 @@ export const CommentForm = () => {
             <input type="text" name="comment" placeholder="Add a comment..."/>
             </form>
 } 
+
+export default Comments

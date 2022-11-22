@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { MigosSongs } from "../Song/Songs";
-import { CommentForm } from "../Comments/Comments";
+import { Songs } from "../";
+import { Comments } from "../";
 
 const Artist = ({ name , genre, desc}) => {
 
@@ -23,11 +23,13 @@ const Artist = ({ name , genre, desc}) => {
         <h2>{genre}</h2>
         <button onClick={(e) => {addLike(e)}} value={likes}>Like!</button>
         <p>{desc}</p>
-        <MigosSongs/>
-        <CommentForm />
+        <Songs/>
+        <Comments />
         </div>
     )
 }
+
+export default Artist
 
 // const Wizkid = () => {
 //     return (
@@ -41,4 +43,3 @@ const Artist = ({ name , genre, desc}) => {
 //     )
 // }
 
-export default Artist

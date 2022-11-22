@@ -2,7 +2,7 @@ import React from "react";
 import OpenItUp from "../../../public/OpenItUp.png"
 import Mood from "../../../public/Mood.jpg" 
 
-export const MigosSongs = () => {
+const Songs = () => {
     return (
         <>
         <h2>Popular Songs:</h2>
@@ -18,17 +18,19 @@ export const MigosSongs = () => {
     )
 }
 
-export const WizkidSongs = () => {
-    return (
-        <>  
-        <h2>Popular Songs:</h2>
-        <ul>
-            <li>
-                <p>Mood</p>
-                <p>2020</p>
-                <img src={Mood} alt="Open It Up cover art" width='500px' />
-            </li>
-        </ul>
-        </>
-    )
-}
+export default Songs
+
+//  const WizkidSongs = () => {
+//     return (
+//         <>  
+//         <h2>Popular Songs:</h2>
+//         <ul>
+//             <li>
+//                 <p>Mood</p>
+//                 <p>2020</p>
+//                 <img src={Mood} alt="Open It Up cover art" width='500px' />
+//             </li>
+//         </ul>
+//         </>
+//     )
+// }
